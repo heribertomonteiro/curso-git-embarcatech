@@ -1,0 +1,12 @@
+git init
+git config --global user.name "Heriberto Costa Monteiro"
+git config --global user.email "heribertoomonteiroo@gmail.com"
+git branch -M main
+git add nome_matricula.txt
+git commit -m "Primeiro Commit. Adição do nome e matrícula"
+git remote add curso-git-embarcatech https://github.com/heribertomonteiro/curso-git-embarcatech.git
+git push curso-git-embarcatech main
+
+git add comandos_atualizados.txt
+git commit -m "adição dos comandos realizados para a atividade"
+git push curso-git-embarcatech main
